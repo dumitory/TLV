@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build:
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
     - name: Build & Test
       uses: ashutoshvarma/action-cmake-build@master
