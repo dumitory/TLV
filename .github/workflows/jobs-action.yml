@@ -13,7 +13,7 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Build & Test
         uses: ashutoshvarma/action-cmake-build@master
-          with:
+        with:
           build-dir: ${{ runner.workspace }}/build
           # will set the CC & CXX for cmake
           cc: gcc
